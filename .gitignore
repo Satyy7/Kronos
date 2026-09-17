@@ -1,0 +1,201 @@
+# ============================================================
+# KRONOS - Root Git Ignore
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Native C / GCC Build Artifacts
+# ------------------------------------------------------------
+
+# Compiled executables
+/kronos
+/sync_validation
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.dylib
+*.dll
+
+# Debug / profiling output
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Core dumps
+core
+core.*
+*.core
+
+
+# ------------------------------------------------------------
+# Runtime Output / Logs
+# ------------------------------------------------------------
+
+*.log
+*.out
+*.err
+
+# Runtime dumps / traces
+*.trace
+*.dump
+
+# Temporary runtime files
+*.tmp
+*.temp
+
+
+# ------------------------------------------------------------
+# Next.js / Node.js
+# ------------------------------------------------------------
+
+# Dependencies
+frontend/node_modules/
+
+# Next.js build output
+frontend/.next/
+
+# Production export
+frontend/out/
+
+# Vercel
+frontend/.vercel/
+
+# Next.js / TypeScript build cache
+frontend/tsconfig.tsbuildinfo
+
+# General Node debug logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# npm cache
+frontend/.npm/
+
+
+# ------------------------------------------------------------
+# Environment Variables / Secrets
+# ------------------------------------------------------------
+
+# Local environment configuration
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Generic environment files
+.env
+.env.local
+.env.*.local
+
+# NOTE:
+# Keep example environment files such as:
+# .env.example
+# tracked in Git.
+
+
+# ------------------------------------------------------------
+# IDE / Editor Files
+# ------------------------------------------------------------
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+# ------------------------------------------------------------
+# Python / Scripting Temporary Files
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+
+# ------------------------------------------------------------
+# Temporary Files
+# ------------------------------------------------------------
+
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Temporary editor files
+*.temp
+*.tmp
+
+
+# ------------------------------------------------------------
+# Coverage / Testing Artifacts
+# ------------------------------------------------------------
+
+coverage/
+.coverage
+htmlcov/
+
+# Test result files
+test-results/
+test-output/
+
+
+# ------------------------------------------------------------
+# OS / Tool Generated Files
+# ------------------------------------------------------------
+
+*.pid
+*.seed
+*.pid.lock
+
+
+# ------------------------------------------------------------
+# Local Experiment Data
+# ------------------------------------------------------------
+
+# Ignore locally generated experiment output if created
+# during benchmarking/testing.
+results/
+output/
+artifacts/
+
+# Keep directories themselves if needed by Git by adding:
+# !results/.gitkeep
+# !output/.gitkeep
+# !artifacts/.gitkeep
