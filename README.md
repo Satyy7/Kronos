@@ -31,6 +31,18 @@ Visualize Thread Behavior
 > **Execute concurrency → Instrument execution → Measure performance → Visualize behavior**
 
 ---
+## Watch Demo
+
+### 🎥 Click Here to Watch the Project Demo
+
+[![▶️ Watch Kronos Project Demo](YOUR_THUMBNAIL_IMAGE_LINK)](YOUR_GOOGLE_DRIVE_VIDEO_LINK)
+
+**▶️ [Click here to watch the full Kronos project demo](YOUR_GOOGLE_DRIVE_VIDEO_LINK)**
+
+
+
+
+---
 
 ## Table of Contents
 
