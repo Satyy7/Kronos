@@ -35,7 +35,7 @@ Visualize Thread Behavior
 
 ### 🎥 Click Here to Watch the Project Demo
 
-[![▶️ Watch Kronos Project Demo](https://drive.google.com/file/d/16PwrY7bx5BW7laDpDMu1uduwZFtOt0A9/view?usp=sharing)](https://drive.google.com/file/d/1kUuXqIMwRQX3OdJ-xxn_6wvKy5EbkEHD/view?usp=sharing)
+[![▶️ Watch Kronos Project Demo](./assets/kronos-demo.png)](https://drive.google.com/file/d/1kUuXqIMwRQX3OdJ-xxn_6wvKy5EbkEHD/view?usp=sharing)
 
 **▶️ [Click here to watch the full Kronos project demo](https://drive.google.com/file/d/1kUuXqIMwRQX3OdJ-xxn_6wvKy5EbkEHD/view?usp=sharing)**
 
